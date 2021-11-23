@@ -43,7 +43,7 @@ To run this project, do the following:
 ## Usage
 To use this website, view [http://localhost:3000](http://localhost:3000) in your browser. It's a single page website and there is nothing to do except view the information. See figure 1 below.
 
-![Figure 1](screenshot1.png)
+![Figure 1](src/screenshot1.png)
 
 ### Credits
 This website was created by Evan Malherbe during the HyperionDev Full Stack Web Development Bootcamp November 2021 [GitHub profile](https://github.com/evanmalherbe) 
