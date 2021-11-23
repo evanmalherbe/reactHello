@@ -1,0 +1,58 @@
+/* Styles for Level 2 task 8 - React - index.js */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #d9e5ef;
+}
+
+/* Margins were creating too much space between header and other content */
+h1 {
+    color: #00d66b;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+h2 {
+    margin-bottom: 0;
+}
+
+img {
+    width: 15em;
+}
+
+li {
+
+    line-height: 1.5em;
+}
+
+/* Use Flexbox to position elements inside div. Learned some things here:
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/  and from "The Odin Project":
+https://www.theodinproject.com/paths */
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+    background-color: white;
+
+    /* Centre div on screen */
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 1em;
+    border: 1px solid #97afa3;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    padding: 1em;
+}
+
+.image {
+    flex: 1;
+    margin-left: 1.5em;
+}
